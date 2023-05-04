@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es una calculadora</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex w-full h-[100vh] bg-purple-900 justify-center items-center">
+    <div class="justify-center bg-white/25 rounded-2xl shadow-black shadow-inner w-[300px] h-[350px] p-[15px] flex items-center flex-col">
+        <div class="my-4 max-w-[250px] flex justify-center w-[250px]">
+            <span class="border text-center rounded shadow-black shadow-inner w-full w-[350px] h-[25px]" id="pantalla"></span>
+        </div>
+        <div class="grid grid-rows-4 grid-flow-col gap-4">
+            <button id="sum" class="border p-4 rounded shadow-black hover:shadow-xl">+</button>
+            <button id="res" class="border p-4 rounded shadow-black hover:shadow-xl">-</button>
+            <button id="mul" class="border p-4 rounded shadow-black hover:shadow-xl">*</button>
+            <button id="divi" class="border p-4 rounded shadow-black hover:shadow-xl">/</button>
+            <button id="1" class="border p-4 rounded shadow-black hover:shadow-xl">1</button>
+            <button id="2" class="border p-4 rounded shadow-black hover:shadow-xl">2</button>
+            <button id="3" class="border p-4 rounded shadow-black hover:shadow-xl">3</button>
+            <button id="0" class="border p-4 rounded shadow-black hover:shadow-xl">0</button>
+            <button id="4" class="border p-4 rounded shadow-black hover:shadow-xl">4</button>
+            <button id="5" class="border p-4 rounded shadow-black hover:shadow-xl">5</button>
+            <button id="6" class="border p-4 rounded shadow-black hover:shadow-xl">6</button>
+            <button id="clear" class="border p-4 rounded shadow-black hover:shadow-xl">cl</button>
+            <button id="7" class="border p-4 rounded shadow-black hover:shadow-xl">7</button>
+            <button id="8" class="border p-4 rounded shadow-black hover:shadow-xl">8</button>
+            <button id="9" class="border p-4 rounded shadow-black hover:shadow-xl">9</button>
+            <button id="resu" class="border p-4 rounded shadow-black hover:shadow-xl">=</button>
+    </div></div>
+</body>
+<script src="./calculadora.js"></script>
+</html>
